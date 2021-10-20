@@ -1,6 +1,5 @@
 import { getAllPosts, getPostBySlug, markdownToHtml } from "../../lib/postsHelper";
-import { StyledDiv } from "../components/Styled/ContentContainer";
-import { StyledH2 } from "../components/Styled/StyledH2";
+import { StyledDiv, StyledH1 } from "../components/Styled/ContentContainer";
 
 
 export default function FirstPost({ post }) {
@@ -9,7 +8,7 @@ export default function FirstPost({ post }) {
             <title>
                 {post.title}
             </title>
-            <StyledH2>{post.title}</StyledH2>
+            <StyledH1>{post.title}</StyledH1>
             <>
                 <div
                     dangerouslySetInnerHTML={{ __html: post.content }}

@@ -6,3 +6,10 @@ export const StyledDiv = styled.div`
   margin: 1rem auto;
   color: ${({ theme }) => theme.text.primary};
 `;
+
+
+export const StyledH1 = styled.h1`
+  margin : 0 auto;
+  font-size: ${({ theme }) => theme.fontSizes[6]};
+  font-weight: ${({ theme }) => theme.fontWeights.heading};
+`;

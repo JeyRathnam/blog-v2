@@ -1,8 +1,8 @@
 ---
-title: NPS API mysterious 403 error
-date: "2020-05-10"
+title: New post
+date: "2021-05-10"
 cta: "react"
-excerpt: NPS API returns HTTP 403 for some routes when not passing in an user agent. I started working on building a GraphQL wrapper API and consume it in a React app later on. I started with python's FastAPI, but soon ran into problem passing GraphQL variables which it didnt like / I couldnt get it to work.
+excerpt: Testing a post.
 ---
 
 TLDR : Pass user agent when sending requests to NPS API.

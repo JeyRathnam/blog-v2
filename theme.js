@@ -7,7 +7,7 @@ const light = {
         input: 'rgba(65,67,78,0.12)'
     },
     text: {
-        primary: '#050505',
+        primary: '#0e0a1e',
         secondary: '#2f3037',
         tertiary: '#525560',
         quarternary: '#9194a1',
@@ -20,7 +20,7 @@ const light = {
 const dark = {
     name: 'dark',
     bg: {
-        primary: '#050505',
+        primary: '#0e0a1e',
         secondary: '#111111',
         inset: '#111111',
         input: 'rgba(191,193,201,0.12)'
@@ -31,7 +31,7 @@ const dark = {
         tertiary: '#a9abb6',
         quarternary: '#6c6f7e',
         placeholder: 'rgba(145,148,161,0.5)',
-        onPrimary: '#050505'
+        onPrimary: '#0e0a1e'
     },
     // ...
 }
