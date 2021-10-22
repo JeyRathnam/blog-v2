@@ -1,36 +1,56 @@
-import { useEffect, useState } from 'react';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import '../styles/globals.css';
-import { darkTheme } from './../theme';
-import Layout from './components/layout';
+import { useState } from "react";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
+import "../styles/globals.css";
+import { darkTheme } from "./../theme";
+import Layout from "./components/layout";
+import Footer from "./components/Styled/Footer";
 
 const GlobalStyle = createGlobalStyle`
 html {
+  margin: 0;
   height: 100%;
 }
 
   body {
-    min-height: 100%;
     margin: 0;
+    
     padding: 0;
-    box-sizing: border-box;
+    
     background-color : ${({ theme }) => theme.bg.primary}
   }
-`
+
+  #__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  p {
+    font-family : "Source Serif Pro", serif;
+    font-size : 1.2rem;
+    line-height : 1.5rem;
+    font-weight : normal;
+  }
+
+  p a {
+    text-decoration : underline;
+  }
+`;
 
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(darkTheme);
 
-  useEffect(() => { }, [theme])
-
-  // console.log(Component)
-  return <>
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <Layout theme={theme} setTheme={setTheme} />
-      <Component {...pageProps} />
-    </ThemeProvider>
-  </>
+  return (
+    <>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Layout theme={theme} setTheme={setTheme}>
+          <Component {...pageProps} />
+          <Footer />
+        </Layout>
+      </ThemeProvider>
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
