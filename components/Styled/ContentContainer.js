@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { device } from "../../../lib/device";
+import { device } from "../../lib/device";
 
 export const StyledDiv = styled.div`
   margin: 0 auto;

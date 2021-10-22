@@ -1,9 +1,9 @@
+import { StyledDiv, StyledH1 } from "../../components/Styled/ContentContainer";
 import {
   getAllPosts,
   getPostBySlug,
   markdownToHtml,
 } from "../../lib/postsHelper";
-import { StyledDiv, StyledH1 } from "../components/Styled/ContentContainer";
 
 export default function FirstPost({ post }) {
   return (

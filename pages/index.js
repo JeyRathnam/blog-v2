@@ -1,6 +1,6 @@
 import styled from "styled-components";
+import PostTitleWithExcerpt from "../components/Post/PostTitleWithExcerpt";
 import { getAllPosts } from "../lib/postsHelper";
-import PostTitleWithExcerpt from "./components/Post/PostTitleWithExcerpt";
 
 const StyledP = styled.p`
   margin: 0 auto;

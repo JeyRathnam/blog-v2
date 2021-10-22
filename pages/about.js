@@ -1,4 +1,4 @@
-import { StyledDiv } from "./components/Styled/ContentContainer";
+import { StyledDiv } from "../components/Styled/ContentContainer";
 
 function ProjectList({ link, name }) {
   return (

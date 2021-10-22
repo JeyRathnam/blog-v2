@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import Layout from "../components/layout";
+import Footer from "../components/Styled/Footer";
 import "../styles/globals.css";
 import { darkTheme } from "./../theme";
-import Layout from "./components/layout";
-import Footer from "./components/Styled/Footer";
 
 const GlobalStyle = createGlobalStyle`
 html {
