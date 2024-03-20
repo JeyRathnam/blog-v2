@@ -6,6 +6,7 @@ import {
 } from "../../lib/postsHelper";
 
 export default function FirstPost({ post }) {
+  console.log(post.title)
   return (
     <StyledDiv>
       <title>{post.title} - JeyR</title>

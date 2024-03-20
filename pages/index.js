@@ -12,9 +12,9 @@ export default function Index({ allPosts }) {
   console.log(allPosts);
   return (
     <>
-      <title>Jey's personal blog</title>
-      {allPosts.map(({ title, slug, excerpt }) => (
-        <PostTitleWithExcerpt title={title} slug={slug} excerpt={excerpt} />
+      <title>Jey&apos;s personal blog</title>
+      {allPosts.map(({ title, slug, excerpt }, i) => (
+        <PostTitleWithExcerpt key={i} title={title} slug={slug} excerpt={excerpt} />
       ))}
     </>
   );

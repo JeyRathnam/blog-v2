@@ -15,7 +15,7 @@ export default function About() {
       <p>
         Hello! My name is Jeyachandran Rathnam. I am software engineer. I
         currently work at Paycom working on custom payroll solutions. I
-        completed my Master's in Computer Science from{" "}
+        completed my Master&apos;s in Computer Science from{" "}
         <a href="https://www.ou.edu/">University of Oklahoma</a>. I did write a
         thesis which is available{" "}
         <a href="https://www.cs.ou.edu/~weaver/academic/publications/rathnam-2017a/materials/rathnam-2017a.pdf">
