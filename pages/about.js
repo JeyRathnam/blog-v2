@@ -26,7 +26,7 @@ export default function About() {
         <ul>
         <ProjectList
             link="https://usvisa.date/"
-            name="US visa Appointment Tracking"
+            name="US Visa Appointment Tracking"
           />
           <ProjectList
             link="https://procreateswatcher.netlify.app/"
