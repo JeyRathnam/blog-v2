@@ -14,8 +14,8 @@ export default function About() {
       <title>About - JeyR</title>
       <p>
         Hello! My name is Jeyachandran Rathnam. I am a software engineer at Paycom. I
-        completed my <a href="https://www.cs.ou.edu/~weaver/academic/publications/rathnam-2017a/materials/rathnam-2017a.pdf">Master&apos;s in Computer Science</a> at{" "}
-        <a href="https://www.ou.edu/">University of Oklahoma</a>.       </p>
+        completed my <a href="https://www.cs.ou.edu/~weaver/academic/publications/rathnam-2017a/materials/rathnam-2017a.pdf">Master&apos;s in Computer Science</a> at The University of Oklahoma.       
+        </p>
       <p>
         I LOVE National Parks, my personal goal is to visit all of
         them in my lifetime. I have been to 18 so far! My favourite so far
@@ -26,19 +26,19 @@ export default function About() {
         <ul>
         <ProjectList
             link="https://usvisa.date/"
-            name="US visa appointment tracking"
+            name="US visa Appointment Tracking"
           />
           <ProjectList
             link="https://procreateswatcher.netlify.app/"
-            name="ProCreate Swatch web app"
+            name="ProCreate Swatch"
           />
           <ProjectList
             link="https://github.com/JeyRathnam/passgen-rs"
-            name="Password Generator - Purely in Rust"
+            name="Password Generator (purely in rust)"
           />
           <ProjectList
             link="https://npsdb.netlify.app/"
-            name="National Park DB"
+            name="National Parks DB"
           />
         </ul>
       </p>
