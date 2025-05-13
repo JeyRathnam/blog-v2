@@ -23,7 +23,7 @@ export default function Footer() {
       <footer>
         <FooterP>
           Personal blog by{" "}
-          <StyledA href="https://twitter.com/jairathnem">Jey</StyledA>
+          <StyledA href="https://github.com/JeyRathnam">Jey</StyledA>
         </FooterP>
       </footer>
     </StyledDivExtended>
